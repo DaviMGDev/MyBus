@@ -1,0 +1,41 @@
+// draft_spec.efn — MyBus project specification
+// Entity-Fact Notation (EFN) — see spec/SPEC.md
+
+project: "MyBus"
+project.description: "A web-based transport management system for a fictional bus company"
+project.context: "Simulated lifecycle from concept through MVP development"
+project.status: "pre-development"
+
+// --- overview ---
+
+overview: {
+  purpose: "MyBus is a web-based transport management system for a fictional bus company that operates scheduled city-to-city trips.",
+  scope: "The MVP focuses on ticket purchasing for registered passengers, trip management by administrators and motorists, and receipt generation for check-in.",
+  compliance: "The system must comply with LGPD (Brazilian) and GDPR (European) data protection regulations from the ground up.",
+  nature: "This is a personal simulation and portfolio project, not a real product or service.",
+  evolution: "The project progresses through concept, requirements, design, development, and optional deployment stages."
+}
+
+// --- goals ---
+
+goals: [
+  "Allow passengers with registered accounts to buy tickets for city-to-city bus trips",
+  "Provide registered passengers with access to trip history, applicable discounts, and booking notifications",
+  "Enable motorists (drivers) to start and end trips within the system",
+  "Enable administrators to create and manage new trips",
+  "Generate a receipt for every ticket purchase that the passenger can present at check-in",
+  "Assign exactly one bus to each trip",
+  "Ensure full compliance with LGPD and GDPR data protection regulations",
+  "Deliver a self-contained MVP with no third-party platform integrations"
+]
+
+// --- non_goals ---
+
+non_goals: [
+  "Support ephemeral or walk-in passengers without registered accounts",
+  "Integrate with any third-party platforms, payment gateways, or external APIs",
+  "Provide a mobile-native application (mobile web access is not excluded but app is out of scope)",
+  "Handle multi-bus trips or trip segments involving bus transfers",
+  "Implement real-time GPS tracking or live bus location features",
+  "Support multiple languages or internationalization beyond the default deployment locale"
+]

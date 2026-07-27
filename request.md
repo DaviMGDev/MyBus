@@ -1,3 +1,16 @@
+---
+type: reference
+title: Request for Proposal — "My Bus" Transport Management System
+description: >-
+  Simulated email from a fictional bus company manager requesting the
+  development of the MyBus system. Outlines core requirements: registered
+  passengers, ticket purchasing, trip management, receipts, and LGPD/GDPR
+  compliance.
+resource:
+  - "Fictional email dated 2026-07-23 from Bus Company Manager to developer"
+created: 2026-07-24
+---
+
 Subject: Request for Proposal — "My Bus" Transport Management System
 
 Dear [Your Name],

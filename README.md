@@ -1,3 +1,15 @@
+---
+type: spec
+title: My Bus
+description: >-
+  Project overview for MyBus — a personal simulation of a web-based transport
+  management system lifecycle. Documents the concept, requirements, design,
+  and development stages of a fictional bus ticketing MVP.
+tags: [project, documentation, simulation, transport, mvp]
+created: 2026-07-24
+updated: 2026-07-24
+---
+
 # My Bus
 
 **This repository is a documentary record of a personal, fictional, simulated project.** Nothing herein describes or represents a real product, real company, or real client engagement.

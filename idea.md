@@ -1,3 +1,16 @@
+---
+type: concept
+title: My Bus — Project Concept
+description: >-
+  Raw high-level concept for a web-based transport management system.
+  Describes core entities (trips, buses, tickets, passengers, motorists,
+  admins) and MVP constraints such as no third-party integrations and
+  mandatory LGPD/GDPR compliance.
+tags: [concept, mvp, transport, bus-system, privacy]
+created: 2026-07-23
+updated: 2026-07-23
+---
+
 # My Bus is intended to be a transport management system 
 web based 
 
